@@ -6,21 +6,22 @@ Vision-Based Game HUD Extraction OCR is a computer vision project focused on ext
 
 ## Repository Structure
 
-Vision-Based-Game-HUD-Extraction-OCR/
-├── evaluation_images/
-├── inference_flask_scripts/
-├── model_inferences/
-├── models/
-├── node-scraper-v3.1/
-├── yolov5/
-├── app.py
-├── count_files.py
-├── env.yaml
-├── game_detection_efficientnet_inference.py
-├── model_inferences_and_output.py
-├── requirements_og.txt
-├── stream_worker4.py
-└── README.md
+| Path | Description |
+|-----|-------------|
+| evaluation_images/ | Sample images for testing and evaluation |
+| inference_flask_scripts/ | Flask inference preprocessing and postprocessing scripts |
+| model_inferences/ | Stored inference outputs and logs |
+| models/ | Pretrained model weights and configs |
+| node-scraper-v3.1/ | Node.js scraper for frame extraction |
+| yolov5/ | YOLOv5 detection framework |
+| app.py | Flask API entry point |
+| count_files.py | File-counting utility |
+| env.yaml | Conda environment definition |
+| game_detection_efficientnet_inference.py | EfficientNet-based HUD detection |
+| model_inferences_and_output.py | Output aggregation and postprocessing |
+| requirements_og.txt | Pip dependencies |
+| stream_worker4.py | Video stream/batch processing worker |
+| README.md | Project documentation |
 
 ---
 
