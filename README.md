@@ -6,6 +6,7 @@ Vision-Based Game HUD Extraction OCR is a computer vision project focused on ext
 
 ## Repository Structure
 
+
 | Path | Description |
 |-----|-------------|
 | evaluation_images/ | Sample images for testing and evaluation |
