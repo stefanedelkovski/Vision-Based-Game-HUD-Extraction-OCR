@@ -40,6 +40,7 @@ Supports scraping video frames or resources via Node.js.
 Clone the repository and install dependencies:
 
 git clone https://github.com/stefanedelkovski/Vision-Based-Game-HUD-Extraction-OCR.git
+
 cd Vision-Based-Game-HUD-Extraction-OCR
 
 If using Conda:
