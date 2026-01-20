@@ -39,16 +39,18 @@ Supports scraping video frames or resources via Node.js.
 
 Clone the repository and install dependencies:
 
-git clone https://github.com/stefanedelkovski/Vision-Based-Game-HUD-Extraction-OCR.git
+```git clone https://github.com/stefanedelkovski/Vision-Based-Game-HUD-Extraction-OCR.git```
 
-cd Vision-Based-Game-HUD-Extraction-OCR
+```cd Vision-Based-Game-HUD-Extraction-OCR```
 
 If using Conda:
+```
 conda env create -f env.yaml
 conda activate vision-hud-ocr
+```
 
 Or using pip:
-pip install -r requirements_og.txt
+```pip install -r requirements_og.txt```
 
 ---
 
@@ -56,7 +58,7 @@ pip install -r requirements_og.txt
 
 ### Start the Flask Inference Server
 
-python app.py
+```python app.py```
 
 The server exposes endpoints for submitting game frames and receiving extracted HUD information.
 
@@ -68,7 +70,7 @@ GET  /status   - optional health check endpoint
 
 ### Run Inference on a Single Image
 
-python game_detection_efficientnet_inference.py --input path/to/image.png
+```python game_detection_efficientnet_inference.py --input path/to/image.png```
 
 This script runs the detection model on a single frame and outputs HUD-related predictions.
 
@@ -76,7 +78,7 @@ This script runs the detection model on a single frame and outputs HUD-related p
 
 ### Stream or Batch Processing
 
-python stream_worker4.py --video path/to/video.mp4
+```python stream_worker4.py --video path/to/video.mp4```
 
 Continuously processes video frames, applies detection + OCR, and aggregates outputs.
 
